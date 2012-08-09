@@ -3,8 +3,9 @@
 
 name:                foursquare
 version:             0.1.0.0
--- synopsis:            
+synopsis:            Utilities for working with the foursquare API in Haskell
 -- description:         
+homepage:            https://github.com/lassoinc/hs-foursquare
 license:             BSD3
 license-file:        LICENSE
 author:              Sam Anklesaria

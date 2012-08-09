@@ -13,9 +13,9 @@ import Data.String (fromString)
 import Data.Text (Text)
 
 data Credentials = Credentials {
-	client_id :: ByteString,
+    client_id :: ByteString,
     client_secret :: ByteString
-}
+} deriving (Show, Read, Eq)
 $(deriveJSON id ''Credentials)
 
 data Location = Location {
